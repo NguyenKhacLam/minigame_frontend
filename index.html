@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/webslides.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+            <!-- Slide 1 -->
+            <section style="background-color: #fff;" id="welcome">
+                <span class="background"></span>
+                <div class="wrap aligncenter">
+                    <h1><Strong>Chào mừng bạn đến với <br/>Minigame của chúng tôi</Strong></h1>
+                    <p class="text-intro">
+                        Chúc bạn may mắn khi chơi
+                    </p>
+                    <!-- Lúc up lên web a thay đổi thành href="https:yourdomain.com/#slide=2 nhé!" -->
+                    <a href="file:///C:/Users/Nguyen%20Khac%20Lam/Desktop/minigame/index.html?#slide=2" class="button zoomIn">Chơi thôi nào!</a>
+                    <a href="#" class="button zoomIn" style="background-color: chocolate;">Quay lại Teentin</a>
+                </div>
+            </section>
+            <!-- Slide 2 -->
+            <section id="question">
+                <div class="wrap size-50 aligncenter question-container">
+                    <!-- Câu trả lời ở đây nhé -->
+                    <form>
+                        <div class="question">
+                            <h2 class="question-title"><Strong>Câu hỏi 1:</Strong>Câu hỏi 1 đáp án</h2>
+                            
+                            <div class="bg-white shadow">
+                                <ul>
+                                    <li>
+                                        <input id="r1" type="radio" name="radio" value="1">
+                                        <label for="r1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+                                    </li>
+                                    <li>
+                                        <input id="r2" type="radio" name="radio" value="2">
+                                        <label for="r2">Radio</label>
+                                    </li>
+                                    <li>
+                                        <input id="r1" type="radio" name="radio" value="1">
+                                        <label for="r1">Radio</label>
+                                    </li>
+                                    <li>
+                                        <input id="r2" type="radio" name="radio" value="2">
+                                        <label for="r2">Radio</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <h2 class="question-title"><Strong>Câu hỏi 2:</Strong>Câu hỏi nhiều đáp án</h2>
+                            
+                            <div class="bg-white shadow">
+                                <ul>
+                                    <li>
+                                        <input id="r1" type="checkbox" name="checkbox" value="1">
+                                        <label for="r1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+                                    </li>
+                                    <li>
+                                        <input id="r2" type="checkbox" name="checkbox" value="2">
+                                        <label for="r2">checkbox</label>
+                                    </li>
+                                    <li>
+                                        <input id="r1" type="checkbox" name="checkbox" value="1">
+                                        <label for="r1">checkbox</label>
+                                    </li>
+                                    <li>
+                                        <input id="r2" type="checkbox" name="checkbox" value="2">
+                                        <label for="r2">Radio</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button type="submit" class="done">Xong!</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Slide 3 -->
+            <!-- Sau khi submit thì trả về đường link "https:yourdomain.com/#slide=3" nhé!-->
+            <section id="thanks">
+                <div class="aligncenter">
+                    <h2>Cảm ơn bạn đã tham gia minigame của chúng tôi</h2>
+                    <h1><strong>Bạn được: 10/10</strong></h1>
+                    <p>Chúc bạn một ngày tốt lành!</p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/webslides.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
